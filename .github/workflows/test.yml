@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Ensure this project runs
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v5
       - uses: ./
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
